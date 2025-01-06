@@ -36,5 +36,3 @@ app.get("/", (req, res) =>{
 app.listen(port, (req, res) =>{
     console.log(`server is listening on port ${port}`);
 });
-
-//mongodb+srv://patwary10:CRRHvnW7qJ6VGrg6@cluster0.pkksc.mongodb.net/?
