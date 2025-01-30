@@ -66,7 +66,7 @@ export default function Cart() {
                     <div>
                         <p>If you have a promo code, Enter it here</p>
                         <div className="cart-promocode-input">
-                            <input type="text" placeholder="prome code" />
+                            <input type="text" placeholder="promo code" />
                             <button>submit</button>
                         </div>
                     </div>
