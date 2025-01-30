@@ -3,10 +3,9 @@ import { assets } from "../../assets/assets"
 import "./Add.css"
 import axios from "axios"
 import { toast } from "react-toastify";
+import { url } from "../../assets/assets";
 
 export default function Add() {
-
-    const url = "http://localhost:4000";
 
     const [image, setImage] = useState(false);
     const [data, setData] = useState({
