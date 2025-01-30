@@ -3,10 +3,9 @@ import { useEffect, useState } from "react"
 import "./List.css"
 import axios from "axios";
 import { toast } from "react-toastify";
+import { url } from "../../assets/assets";
 
 export default function () {
-
-    const url = "http://localhost:4000";
 
     const [list, setList] = useState([]);
 
