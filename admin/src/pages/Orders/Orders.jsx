@@ -3,10 +3,10 @@ import "./Orders.css"
 import axios from "axios";
 import { toast } from "react-toastify";
 import { assets } from "../../assets/assets.js"
+import { url } from "../../assets/assets";
 
 export default function Orders() {
-
-    const url = "http://localhost:4000";
+    
     const [orders, setOrders] = useState([]);
     const fetchAllOrders = async () => {
         const res = await axios.get(url + "/api/order/list");
