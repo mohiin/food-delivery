@@ -2,6 +2,9 @@
 
 A web application for ordering food, processing payments via Stripe, and providing admin functionalities for managing the menu. Users can browse the available food items, place an order, and complete payment using Stripe. Admins can add or remove food items and view the order list.
 
+## Live Demo:
+[Visit Site](https://food-delivery-frontend-mh.onrender.com)
+
 ## Features
 
 - **User Features**:
